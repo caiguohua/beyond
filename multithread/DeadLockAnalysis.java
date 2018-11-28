@@ -1,5 +1,8 @@
 package multithread;
 
+/**
+ * À¿À¯
+ */
 class DLThread implements Runnable{
     private Object obj1;
     private Object obj2;
@@ -11,14 +14,29 @@ class DLThread implements Runnable{
 
     @Override
     public void run() {
+//        String name = Thread.currentThread().getName();
+//        System.out.println(name + " acquiring lock on " + obj1);
+//        synchronized (obj1){
+//            System.out.println(name + " acquired lock on " + obj1);
+//            work();
+//        }
+//        System.out.println(name + " released lock on " + obj1);
+//
+//        System.out.println(name + " acquiring lock on " + obj2);
+//        synchronized (obj2){
+//            System.out.println(name + " acquired lock on " + obj2);
+//            work();
+//        }
+//        System.out.println(name + " released lock on " + obj2);
+
         String name= Thread.currentThread().getName();
         System.out.println(name + " acquiring lock on" + obj1);
         synchronized (obj1){
-            System.out.println(name+" acquiring lock on" + obj1);
+            System.out.println(name+" acquired lock on" + obj1);
             work();
             System.out.println(name+" acquiring lock on" + obj2);
             synchronized (obj2){
-                System.out.println(name+" acquiring lock on" + obj2);
+                System.out.println(name+" acquired lock on" + obj2);
                 work();
             }
             System.out.println(name + " released lock on" + obj2);
@@ -30,7 +48,7 @@ class DLThread implements Runnable{
 
     private void work() {
         try{
-            Thread.sleep(3000);
+            Thread.sleep(10000);
         }catch (InterruptedException e){
             e.printStackTrace();
         }
