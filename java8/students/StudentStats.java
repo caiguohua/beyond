@@ -16,7 +16,8 @@ public class StudentStats {
                 .sum();
         log("Total number of student is: ",studentCount);
 
-        long totalCredits = students.stream()
+        long totalCredits = students
+                .stream()
                 .mapToLong(Student::getCredit)
                 .sum();
         log("total creadits of students is : ",totalCredits);
