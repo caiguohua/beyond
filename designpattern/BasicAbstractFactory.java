@@ -61,5 +61,9 @@ public class BasicAbstractFactory{
         AbstractFactory enginolaFactory = AbstractFactory.getFactory(Architecture.ENGINOLA);
         CPU cpu = enginolaFactory.createCPU();
         System.out.println(cpu);
+
+        AbstractFactory emberFactory = AbstractFactory.getFactory(Architecture.ENGINOLA);
+        MMU mmu = emberFactory.createMMU();
+        System.out.println(mmu);
     }
 }

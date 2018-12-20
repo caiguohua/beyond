@@ -13,9 +13,9 @@ abstract class Computer{
     @Override
     public String toString() {
         return "RAM="+this.getRAM()
-                +"CPU="+this.getCPU()
-                +"GPU="+this.getGPU()
-                +"SSD="+this.getSSD();
+                +" CPU="+this.getCPU()
+                +" GPU="+this.getGPU()
+                +" SSD="+this.getSSD();
     }
 
 }
