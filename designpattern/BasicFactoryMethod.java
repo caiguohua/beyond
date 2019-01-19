@@ -11,6 +11,7 @@ abstract class Computer{
     public abstract String getSSD();
 
     @Override
+
     public String toString() {
         return "RAM="+this.getRAM()
                 +" CPU="+this.getCPU()
