@@ -11,7 +11,7 @@ public class BybeController {
     @RequestMapping(method = RequestMethod.GET)
     public String Bye(ModelMap model){
         model.addAttribute("greeting","Goodbye from Dharma");
-        model.addAttribute("9527");
+        model.addAttribute("9526");
         System.out.println(model.toString());
         return "index";
     }
