@@ -7,45 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc12f72-dbf2-4a02-9c3b-6820002a4bf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/test/TestHibernate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com.how2java.pojo/Category.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com.how2java.pojo/Product.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvcrest/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comSpring1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comSpring1/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comSpring1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comSpring1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comSpring1/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../comSpring1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comSpring1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comSpring1/src/main/webapp/WEB-INF/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comSpring1/src/main/webapp/WEB-INF/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comSpring1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comSpring1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comSpring1/target/com.Spring1/WEB-INF/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comSpring1/target/com.Spring1/WEB-INF/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comSpring1/target/com.Spring1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comSpring1/target/com.Spring1/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comcgh1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comcgh1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/com/dharma/springmvc/controller/BybeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/com/dharma/springmvc/controller/BybeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/target/classes/com/dharma/springmvc/controller/BybeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/classes/com/dharma/springmvc/controller/BybeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/target/spring.mvc/WEB-INF/classes/com/dharma/springmvc/controller/BybeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/spring.mvc/WEB-INF/classes/com/dharma/springmvc/controller/BybeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvcrest/.idea/artifacts/spring_mvc_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvcrest/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcrest/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvcrest/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcrest/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvcrest/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springmvcrest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcrest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,6 +37,7 @@
     <session id="1197248099">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -185,7 +149,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/test/TestHibernate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -220,11 +184,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="36">
+              <caret line="2" column="57" lean-forward="true" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -397,6 +361,13 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="com.how2java.pojo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -407,7 +378,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552140560559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552639148912" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -439,7 +410,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestHibernate">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration name="TestHibernate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.how2java.test.TestHibernate" />
       <module name="hibernate" />
@@ -544,15 +515,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551705817240</updated>
-      <workItem from="1551705825563" duration="12344000" />
+      <workItem from="1551705825563" duration="13329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12344000" />
+    <option name="totallyTimeSpent" value="13329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Persistence" side_tool="true" />
       <window_info id="Designer" />
@@ -561,7 +533,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" weight="0.32876712" />
@@ -572,7 +544,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -713,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com.how2java.pojo/Category.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -741,6 +706,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="57" lean-forward="true" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
         </state>
       </provider>
     </entry>

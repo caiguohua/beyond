@@ -7,45 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312196e-a1d9-4c5b-87e1-eef9cf870a6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/hibernate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/com/how2java/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/com/how2java/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/com/how2java/test/TestHibernate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/com.how2java.pojo/Category.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/com.how2java.pojo/Product.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvcrest/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/com.Spring1/WEB-INF/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.Spring1/WEB-INF/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/com.Spring1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.Spring1/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comcgh1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comcgh1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/com/dharma/springmvc/controller/BybeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/com/dharma/springmvc/controller/BybeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/target/classes/com/dharma/springmvc/controller/BybeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/classes/com/dharma/springmvc/controller/BybeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc/target/spring.mvc/WEB-INF/classes/com/dharma/springmvc/controller/BybeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/spring.mvc/WEB-INF/classes/com/dharma/springmvc/controller/BybeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvcrest/.idea/artifacts/spring_mvc_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvcrest/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcrest/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvcrest/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcrest/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvcrest/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springmvcrest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcrest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +22,7 @@
     <session id="-1812687709">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.7" value="1" />
@@ -343,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552140560441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552639184839" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -457,6 +420,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -468,7 +432,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
