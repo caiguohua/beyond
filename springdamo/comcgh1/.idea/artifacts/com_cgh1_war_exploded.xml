@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="com.cgh1:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/com_cgh1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="com.cgh1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="com.cgh1/web/Web" />
+    </root>
+  </artifact>
+</component>
