@@ -1,0 +1,4 @@
+dharma:
+  project: www.dharma-mall.gov
+
+#  properties 的优先级高于yaml
