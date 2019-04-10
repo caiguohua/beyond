@@ -20,14 +20,24 @@ public class ProductService {
         return "create success!";
     }
 
-    public String updateProduct(Integer id,String name,Double price){
+    public Product updateProduct(Integer id,String name,Double price){
         Product product = new Product(id,name,price);
         productDao.save(product);
-        return "update success!";
+//        return "update success!";
+        return product;
     }
+
 
     public List<Product> getProducts(){
         return productDao.findAll();
+    }
+
+    public Product getProduct(Integer id){
+        return productDao.findById(id).orElse(new Product("null",0.0));
+    }
+
+    public List<Product> getProductsByName(String name){
+        return productDao.findByName(name);
     }
 
     public void deleteById(Integer id){
