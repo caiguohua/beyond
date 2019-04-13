@@ -9,8 +9,8 @@ import java.util.Optional;
 
 @Repository
 public interface ProductDao extends JpaRepository<Product,Integer> {
-    List<Product> findByname(String name);
+    List<Product> findByPname(String pname);
 
-    Optional<Product> findByid(Integer id);
+    Optional<Product> findByPid(Integer pid);
 
 }

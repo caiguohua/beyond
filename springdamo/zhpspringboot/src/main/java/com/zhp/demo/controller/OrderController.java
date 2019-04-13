@@ -42,12 +42,12 @@ public class OrderController {
     }
 
     @GetMapping("/pinfo/{oid}")
-    public List<Map<String,Object>> getOrderInfoByOid(@PathVariable Integer oid){return orderService.getOrderInfoByOrderOid(oid);}
+    public List<Map<String,Object>> getPOrderInfoByOid(@PathVariable Integer oid){return orderService.getPOrderInfoByOid(oid);}
 
     @GetMapping("/uinfo/{oid}")
-    public List<Map<String,Object>> getOrderInfo(@PathVariable Integer oid){return orderService.getOrderInfoByOid(oid);}
+    public List<Map<String,Object>> getUOrderInfoByOid(@PathVariable Integer oid){return orderService.getUOrderInfoByOid(oid);}
 
-//    @GetMapping("/orderinfo")
-//    public OrderInfo getOrderInfoByOid(){return orderInfoService.getOrderInfoByOrderOid();}
+    @GetMapping("/puinfo/{oid}")
+    public List<Map<String,Object>> getPUOrderInfoByOid(@PathVariable Integer oid){return orderService.getPUOrderInfoByOid(oid);}
 
 }

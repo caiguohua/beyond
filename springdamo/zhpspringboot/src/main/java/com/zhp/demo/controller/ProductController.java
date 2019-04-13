@@ -19,9 +19,9 @@ public class ProductController {
         return productService.getProducts();
     }
 
-    @GetMapping("/id/{id}")
-    public Product getProductById(@PathVariable Integer id){
-        return productService.getProductById(id);
+    @GetMapping("/pid/{pid}")
+    public Product getProductById(@PathVariable Integer pid){
+        return productService.getProductById(pid);
     }
 
     @GetMapping("/name/{name}")
@@ -34,13 +34,13 @@ public class ProductController {
         return productService.createProduct(name,price,count);
     }
 
-    @PutMapping("/update/{id}/{name}/{price}/{count}")
-    public String updateProduct(@PathVariable Integer id, @PathVariable String name, @PathVariable Double price, @PathVariable Integer count){
-        return productService.updateProduct(id,name,price,count);
+    @PutMapping("/update/{pid}/{name}/{price}/{count}")
+    public String updateProduct(@PathVariable Integer pid, @PathVariable String name, @PathVariable Double price, @PathVariable Integer count){
+        return productService.updateProduct(pid,name,price,count);
     }
 
-    @DeleteMapping("delete/{id}")
-    public void deleteProduct(@PathVariable Integer id){
-        productService.deleteById(id);
+    @DeleteMapping("delete/{pid}")
+    public void deleteProduct(@PathVariable Integer pid){
+        productService.deleteById(pid);
     }
 }

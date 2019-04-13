@@ -30,16 +30,16 @@ public class ProductService {
         return productDao.findAll();
     }
 
-    public Product getProductById(Integer id){
-        return productDao.findByid(id).orElse(new Product("null",0.0,0));
+    public Product getProductById(Integer pid){
+        return productDao.findByPid(pid).orElse(new Product("null",0.0,0));
     }
 
-    public List<Product> getProductByName(String name){
-        return productDao.findByname(name);
+    public List<Product> getProductByName(String pname){
+        return productDao.findByPname(pname);
     }
 
-    public void deleteById(Integer id){
-        productDao.deleteById(id);
+    public void deleteById(Integer pid){
+        productDao.deleteById(pid);
     }
 
 

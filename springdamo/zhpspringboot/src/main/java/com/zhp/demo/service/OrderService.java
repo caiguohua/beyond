@@ -39,16 +39,20 @@ public class OrderService {
     }
 
     public Product getProductByOrderOid(Integer oid){
-        return productDao.findByid(orderDao.getOne(oid).getPid())
+        return productDao.findByPid(orderDao.getOne(oid).getPid())
                 .orElse(new Product(0,"null",0.0,0));
     }
 
-    public List<Map<String,Object>> getOrderInfoByOrderOid(Integer oid){
-        return orderDao.findOrderInfoById(oid);
+    public List<Map<String,Object>> getPOrderInfoByOid(Integer oid){
+        return orderDao.findPOrderInfoById(oid);
     }
 
-    public List<Map<String,Object>> getOrderInfoByOid(Integer oid){
-        return orderDao.findOrderInfo(oid);
+    public List<Map<String,Object>> getUOrderInfoByOid(Integer oid){
+        return orderDao.findUOrderInfoById(oid);
+    }
+
+    public List<Map<String,Object>> getPUOrderInfoByOid(Integer oid){
+        return orderDao.findPUOrderInfoById(oid);
     }
 
 //    public List<Map<String,Object>> getOrderInfoByOrderOid(Integer oid){
