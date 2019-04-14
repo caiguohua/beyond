@@ -1,10 +1,8 @@
 package com.zhp.demo.controller;
 
 import com.zhp.demo.bean.Order;
-import com.zhp.demo.bean.OrderInfo;
 import com.zhp.demo.bean.Product;
 import com.zhp.demo.bean.User;
-import com.zhp.demo.service.OrderInfoService;
 import com.zhp.demo.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Map;
 
 
 @RestController
@@ -21,7 +20,6 @@ public class OrderController {
 
     @Autowired
     private OrderService orderService;
-    private OrderInfoService orderInfoService;
 
     @GetMapping("/all")
     public List<Order> getAll(){
@@ -43,10 +41,13 @@ public class OrderController {
         return orderService.getProductByOrderOid(oid);
     }
 
-//    @GetMapping("/orderinfo/orderid/{orderid}")
-//    public List<OrderInfo> getOrderInfoByOid(@PathVariable Integer oid){return orderInfoService.getOrderInfoByOrderOid(oid);}
+    @GetMapping("/pinfo/{oid}")
+    public List<Map<String,Object>> getPOrderInfoByOid(@PathVariable Integer oid){return orderService.getPOrderInfoByOid(oid);}
 
-    @GetMapping("/orderinfo")
-    public OrderInfo getOrderInfoByOid(){return orderInfoService.getOrderInfoByOrderOid();}
+    @GetMapping("/uinfo/{oid}")
+    public List<Map<String,Object>> getUOrderInfoByOid(@PathVariable Integer oid){return orderService.getUOrderInfoByOid(oid);}
+
+    @GetMapping("/puinfo/{oid}")
+    public List<Map<String,Object>> getPUOrderInfoByOid(@PathVariable Integer oid){return orderService.getPUOrderInfoByOid(oid);}
 
 }
