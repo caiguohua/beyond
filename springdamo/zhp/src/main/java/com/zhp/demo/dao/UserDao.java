@@ -1,6 +1,6 @@
 package com.zhp.demo.dao;
 
-import com.zhp.demo.bean.Product;
+import com.zhp.demo.bean.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -8,9 +8,8 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface ProductDao extends JpaRepository<Product,Integer> {
-    List<Product> findByPname(String pname);
+public interface UserDao extends JpaRepository<User,Integer> {
+    List<User> findByname(String name);
 
-    Optional<Product> findById(Integer id);
-
+    Optional<User> findByid(Integer id);
 }
