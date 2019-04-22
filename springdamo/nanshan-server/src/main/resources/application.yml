@@ -1,0 +1,9 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5 #间隔5秒钟跳一次（监听有没有服务）
+    register-with-eureka: false  #自己不注册自己
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

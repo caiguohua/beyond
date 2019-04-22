@@ -1,0 +1,22 @@
+server:
+  port: 8011
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 5      #多久刷新
+    lease-expiration-duration-in-seconds: 2   #多久失效
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    healthcheck:
+      enable: true
+    lease:
+      duration: 5
+
+
+spring:
+  application:
+    name: product-service
+
+management:
+  security:
+    enabled: false
