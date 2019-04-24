@@ -1,5 +1,5 @@
 server:
-  port: 8011
+  port: 8012
 
 eureka:
   instance:
@@ -16,12 +16,8 @@ eureka:
 
 spring:
   application:
-    name: product-service
+    name: product2-service
 
 management:
   security:
     enabled: false
-
-logging:
-  level:
-    com.dharma.springcloud.dharmamallservice: DEBUG
