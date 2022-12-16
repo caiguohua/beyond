@@ -11,7 +11,7 @@
 
   <properties>
     <!-- spring版本号 -->
-    <spring.version>4.3.1.RELEASE</spring.version>
+    <spring.version>5.2.20.RELEASE</spring.version>
   </properties>
 
   <!--   依赖从这开始
